@@ -1,0 +1,104 @@
+body {
+  font-family: "IBM Plex Mono";
+}
+
+.container {
+  background-color: rgb(229, 231, 235);
+  border-radius: 6px;
+  width: 660px;
+  height: 304px;
+}
+
+.title-container {
+  display: flex;
+}
+
+.title-container h1 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.title-container span {
+  padding-top: 14px;
+  padding-left: 65px;
+  color: rgb(209, 213, 219);
+  font-size: 20px;
+}
+
+.content-container {
+  float: right;
+  padding-left: 8px;
+  padding-right: 7px;
+}
+
+.variants-container {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 6px;
+}
+.variants-container button {
+  background-color: rgb(229, 231, 235);
+  border-radius: 6px;
+  width: 26px;
+  height: 24px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.size1 {
+}
+
+.size2 {
+  border: 0px;
+}
+
+.size3 {
+  border: 0px;
+}
+
+.size4 {
+  border: 0px;
+}
+
+.size5 {
+  border: 0px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: space-between;
+}
+
+.left-buttons {
+  margin: 3px;
+}
+.button1 {
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.button2 {
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.right-buttons {
+  padding-left: 196px;
+  color: rgb(209, 213, 219);
+  border-radius: 6px;
+  padding-top: 6px;
+}
+
+.text {
+  font-size: 9px;
+  padding-left: 4px;
+  padding-top: 6px;
+}
+
+.image-container {
+  flaot: left;
+}
+
+image {
+  border-radius: 6px;
+}
